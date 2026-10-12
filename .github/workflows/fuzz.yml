@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '23 6 * * 3'
   workflow_dispatch:
+  push:
+    branches: ['try/**']
 
 permissions:
   contents: read
